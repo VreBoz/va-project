@@ -10,5 +10,14 @@
             <img src="../../assets/img/Icon_mobile.png" alt="">
             <span class="contact-number">(+49)176-9898-2509</span>
         </div>
+
+        <div class="menu-icon" (click)="toggleMenu()">
+            <img src="../../assets/img/icons8-menü-64.png" alt="Menu">
+        </div>
+        <div class="link-container-mobile" [class.menu-open]="menuOpen">
+            <a href="#">Dienstleistungen</a>
+            <a href="#">Über uns</a>
+            <a href="#">Kontakt</a>
+        </div>
     </div>
 </header>
