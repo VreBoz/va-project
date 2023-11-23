@@ -1,0 +1,31 @@
+.service-item {
+    background-color: rgba($color: #ffffff, $alpha: 0.95);
+    background-image: linear-gradient(
+        to bottom,
+        #ffffff,
+        #cccccc
+      );
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 20px;
+    margin: 10px;
+    text-align: center; /* Zentrierter Text */
+    transition: transform 0.3s ease; /* Animation für den Hover-Effekt */
+    
+  }
+  
+  .service-item:hover {
+    transform: translateY(-5px); /* Hebt das Element beim Hovern leicht an */
+  }
+  
+  @media (max-width: 768px) {
+    .service-item {
+      width: calc(50% - 20px); /* Zwei Elemente pro Reihe in kleineren Ansichten */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .service-item {
+      width: 100%; /* Ein Element pro Reihe auf sehr kleinen Bildschirmen */
+    }
+  }
