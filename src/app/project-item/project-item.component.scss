@@ -1,0 +1,44 @@
+.project-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+
+    .project-detail {
+        max-width: 500px;
+
+        h3 {
+            font-size: 20px;
+            font-weight: 700;
+        }
+
+        .view-all {
+            font-size: 25px; // Schriftgröße anpassen
+            color: #7D3131; // Textfarbe anpassen
+            text-decoration: none; // Unterstreichung entfernen
+            font-weight: 700; // Fettdruck für den Text
+            position: relative; // Für die Positionierung des Pseudo-Elements
+            border: 1px solid transparent;
+            border-radius: 10px;
+            padding: 5px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            max-width: 260px;
+            
+            &:hover {
+              
+              background-color: rgba($color: #989a99, $alpha: 0.3);
+            }
+
+            img {
+                height: 25px;
+                
+            }
+          }
+    }
+
+    img {
+        border-radius: 20px;
+    }
+}

@@ -8,6 +8,8 @@ import { IntroSectionComponent } from './intro-section/intro-section.component';
 import { StatsSectionComponent } from './stats-section/stats-section.component';
 import { ServicesSectionComponent } from './services-section/services-section.component';
 import { ServiceItemComponent } from './service-item/service-item.component';
+import { ProjectsSectionComponent } from './projects-section/projects-section.component';
+import { ProjectItemComponent } from './project-item/project-item.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { ServiceItemComponent } from './service-item/service-item.component';
     IntroSectionComponent,
     StatsSectionComponent,
     ServicesSectionComponent,
-    ServiceItemComponent
+    ServiceItemComponent,
+    ProjectsSectionComponent,
+    ProjectItemComponent
   ],
   imports: [
     BrowserModule,

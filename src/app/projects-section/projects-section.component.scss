@@ -1,0 +1,15 @@
+.projects-section {
+    display: flex;
+    flex-direction: column;
+    margin-left: 131px;
+    margin-right: 131px;
+    margin-top: 100px;
+
+    .projects-headline {
+        text-align: center;
+    }
+
+    .project-list{
+        margin-top: 80px;
+    }
+}
