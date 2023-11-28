@@ -1,8 +1,30 @@
-.services-list {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px; /* Abstand zwischen den Elementen */
-    justify-content: center; /* Zentriert die Elemente, wenn nicht alle Platz in einer Reihe haben */
-  }
+.services-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+    .services-headline{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      max-width: 950px;
+
+      h2 {
+        font-size: 52px;
+        font-weight: 900;
+      }
+    }
+   
+    .services-list {
+      display: flex;
+      flex-wrap: wrap;
+      margin-left: 131px;
+      margin-right: 131px;
+      justify-content: center; /* Zentriert die Elemente, wenn nicht alle Platz in einer Reihe haben */
+      margin-top: 60px;
+      max-width: 1500px;
+    } 
+}
+
   
   

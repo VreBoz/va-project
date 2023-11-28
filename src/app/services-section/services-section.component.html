@@ -1,7 +1,19 @@
 <!-- services-section.component.html -->
 <section class="services-section">
+  <div class="services-headline">
     <h2>Our Services</h2>
-    <div class="services-list">
-      <app-service-item *ngFor="let service of services" [service]="service"></app-service-item>
-    </div>
-  </section>
+    <span>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat.
+    </span>
+  </div>
+  
+  <div class="services-list">
+    <app-service-item
+      *ngFor="let service of services"
+      [service]="service"
+    ></app-service-item>
+  </div>
+</section>

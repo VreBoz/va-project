@@ -1,4 +1,5 @@
 .service-item {
+  max-width: 365px;
     background-color: rgba($color: #ffffff, $alpha: 0.95);
     background-image: linear-gradient(
         to bottom,
@@ -7,10 +8,33 @@
       );
     border-radius: 10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    padding: 20px;
+    padding-bottom: 20px;
     margin: 10px;
     text-align: center; /* Zentrierter Text */
     transition: transform 0.3s ease; /* Animation für den Hover-Effekt */
+    cursor: pointer;
+
+    
+
+    img {
+      border-radius: 10px 10px 0 0;
+    }
+
+    .read-more {
+      padding: 20px 50px;
+      font-size: 24px;
+      font-weight: 700;
+      border-radius: 30px;
+      color: #fff;
+      background-color: #7E3131;
+      border: none;
+      cursor: pointer;
+      text-decoration: none;
+      transition: 225ms;
+      &:hover {
+        background-color: #545557;
+    }
+    }
     
   }
   
