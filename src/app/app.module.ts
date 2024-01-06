@@ -10,6 +10,7 @@ import { ServicesSectionComponent } from './services-section/services-section.co
 import { ServiceItemComponent } from './service-item/service-item.component';
 import { ProjectsSectionComponent } from './projects-section/projects-section.component';
 import { ProjectItemComponent } from './project-item/project-item.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { ProjectItemComponent } from './project-item/project-item.component';
     ServicesSectionComponent,
     ServiceItemComponent,
     ProjectsSectionComponent,
-    ProjectItemComponent
+    ProjectItemComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

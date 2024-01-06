@@ -3,6 +3,8 @@
     justify-content: space-between;
     align-items: center;
     margin-bottom: 100px;
+    
+
 
     .project-detail {
         max-width: 500px;
@@ -34,11 +36,13 @@
             img {
                 height: 25px;
                 
+                
             }
           }
     }
 
-    img {
+    .latest-picture {
         border-radius: 20px;
+        box-shadow: 5px 5px 5px 5px rgba(1,1,1,0.3);
     }
 }
